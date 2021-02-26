@@ -1,0 +1,70 @@
+body{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    margin: 0;
+}
+.navigation{
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.right-nav{
+    margin-left: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.center-nav{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.left-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.left-nav a{
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.test-container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url('../assets//student_home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subject{
+    margin-top: 70px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #696966;
+}
+.subject h4{
+    color: white;
+}
+.subject p{
+    color: white;
+}
+.subject button{
+    background-color: #24A0ED;
+    border-radius: 5px;
+    padding: 7px;
+    border: none;
+    color: white;
+}

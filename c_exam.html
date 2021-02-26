@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>C Exam</title>
+    <link rel="stylesheet" href="css/c_exam.css" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="js/script.js"></script>
+    <script src="js/c_exam.js"></script>
+</head>
+
+<body>
+    <nav>
+        <nav class="navigation">
+            <a href="c_exam.html">
+                <h2>C Exam</h2>
+            </a>
+            <a href="student_home.html">
+                <h2>Home</h2>
+            </a>
+        </nav>
+        <div class="Container">
+            <form>
+                <div class="Question_container">
+                    <h4>Who invented C Language.?</h4>
+                    <ol>
+                        <li><input type="radio" name="q1" value="Charles Babbage">Charles Babbage</li>
+                        <li><input type="radio" name="q1" value="Grahambel">Grahambel</li>
+                        <li><input type="radio" name="q1" value="Dennis Ritchie">Dennis Ritchie</li>
+                        <li><input type="radio" name="q1" value="Steve Jobs">Steve Jobs</li>
+                    </ol>
+                </div>
+                <div class="Question_container">
+                    <h4>C is a which level language.?</h4>
+                    <ol>
+                        <li><input type="radio" name="q2" value="Low Level">Low Level</li>
+                        <li><input type="radio" name="q2" value="High Level">High Level</li>
+                        <li><input type="radio" name="q2" value="Low + High">Low + High</li>
+                        <li><input type="radio" name="q2" value="None">None</li>
+                    </ol>
+                </div>
+                <div class="Question_container">
+                    <h4>Low level language is .?</h4>
+                    <ol>
+                        <li><input type="radio" name="q3" value="Human readable like language">Human readable like
+                            language</li>
+                        <li><input type="radio" name="q3" value="language with big program size">language with big
+                            program size</li>
+                        <li><input type="radio" name="q3" value="language with small program size">language with small
+                            program size</li>
+                        <li><input type="radio" name="q3"
+                                value="Difficult to understand and readability is questionable">Difficult to understand
+                            and readability is questionable</li>
+                    </ol>
+                </div>
+                <div class="Question_container">
+                    <h4>High level language is a .?</h4>
+                    <ol>
+                        <li><input type="radio" name="q4" value="Human readable like language">Human readable like
+                            language</li>
+                        <li><input type="radio" name="q4" value="language with small program size">language with small
+                            program size</li>
+                        <li><input type="radio" name="q4" value="language with big program size">language with big
+                            program size</li>
+                        <li><input type="radio" name="q4"
+                                value="language which is difficult to understand and not human readable">language which
+                            is difficult to understand and not human readable</li>
+                    </ol>
+                </div>
+                <div class="submitContainer">
+                <div class="btnContainer">
+                <input type="button" value="Submit" onClick="getScore(this.form);"></input>
+                <button type="submit" name="submit" onclick="showResult(); return false;">View Result</button>
+                </div>
+                </div>
+            </form>
+            <div class="resultBar">
+               <h4 id="correctA"></h4>
+               <h4 id="totalP"></h4>
+            </div>
+        </div>
+    </nav>
+</body>
+
+</html>
